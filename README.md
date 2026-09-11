@@ -4,7 +4,7 @@
 > I am a student working on building a portfolio in my CS + AI class, especially in exploring AI and its functions on the inside
 ---
 ## Who I Am
-My name is Joshua and I'm currently studying
+My name is Joshua and I'm currently studying Computer science and AI.
 ## My Interest in AI
 If someone was to ask me what I find interesting about AI, I'd say that the endless posibilites and uses with it make it truly interesting and that drives me to become better at programming.
 One day I hope to create an AI model of my own, maybe as a personal assistant.
