@@ -18,7 +18,7 @@ One day I hope to create an AI model of my own, maybe as a personal assistant.
 My career goal is to work in cybersecurity, but my first step to getting there is through my CS + AI course.
 ---
 ## What You Will Find in This Portfolio
-In this repository, you can find the prompts I've created while I'm in m CS class
+In this repository, you can find the prompts I've created while I'm in mY CS class
 ---
 ## Contact Info
 - GitHub: (https://github.com/JoshuaH-777)
