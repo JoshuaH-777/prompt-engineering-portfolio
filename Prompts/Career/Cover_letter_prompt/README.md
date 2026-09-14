@@ -1,4 +1,4 @@
-# [Prompt Name]
+# Cover Letter
 > This Prompt is made to create a Cover Letter for a Resume
 ## Overview
 This prompt is supposed to come up with a Cover Letter on a Resume once given details that will help come up with it accurately. To ensure the AI doesn't stray to wildly, This prompt will keep the AI centered on what the user needs to write about, whether it be about their skills or past experiences.
