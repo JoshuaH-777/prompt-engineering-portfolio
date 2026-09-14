@@ -31,3 +31,6 @@ prompt and the resulting output.
 - **Technique:** Few-Shot
 - **Best models:** [Which models work best]
 - **Placeholders:** [Number and type]
+
+
+**NOT FINISHED**
