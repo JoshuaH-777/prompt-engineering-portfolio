@@ -49,3 +49,8 @@ List the information the user has to supply, written as placeholders:
 bullets, or a table.]
 **Constraints:** [Rules that keep the AI on scope and protect quality.]
 **Tone and Style:** [The voice, reading level, and style you want.]
+
+
+
+
+**NOT FINISHED**
