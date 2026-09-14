@@ -17,8 +17,8 @@ with no examples).
 You justify both choices in `methodology.md`.
 ---
 ## Overview
-**Purpose:** [A sentence or two on what this prompt produces.]
-**Structure:** [Name your framework, your modified framework, or "custom
+**Purpose:** This prompt is specifically made for creating a cover letter for resumes, which makes the task of creating the actualy resume easier since the user is not forced to write several large chunks about themselves.
+**Structure:** The framework I've decided to use is  [Name your framework, your modified framework, or "custom
 structure," then list the parts it breaks into, for example: Context, Task,
 Constraints, Format.]
 **Technique:** [Zero-shot, few-shot, chain-of-thought, or zero-shot chain-of-
@@ -49,7 +49,3 @@ List the information the user has to supply, written as placeholders:
 bullets, or a table.]
 **Constraints:** [Rules that keep the AI on scope and protect quality.]
 **Tone and Style:** [The voice, reading level, and style you want.]
----
-## Additional Instructions (optional)
-Anything else the AI should keep in mind that does not fit one of the parts above.
-Delete this section if you do not need it.
