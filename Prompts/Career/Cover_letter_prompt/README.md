@@ -6,7 +6,7 @@ This prompt is supposed to come up with a Cover Letter on a Resume once given de
 - Cover Letter Creation
 - Possibly to come up with the resume itself
 - **Structure:** B-A-B
-- **Technique:** Few-Shot
+- **Technique:** Zero-Shot
 - **Output:** The length of a 5-7 sentence paragraph detailed with what the user requests
 ---
 ## Quick Start
@@ -31,6 +31,3 @@ prompt and the resulting output.
 - **Technique:** Few-Shot
 - **Best models:** Gemini
 - **Placeholders:** 2 Placeholders
-
-
-**NOT FINISHED**
