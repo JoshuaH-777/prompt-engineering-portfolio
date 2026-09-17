@@ -6,8 +6,6 @@ This prompt is supposed to come up with a Cover Letter on a Resume once given de
 - Cover Letter Creation
 - Possibly to come up with the resume itself
 
-print()
-
 - **Structure:** C-A-R-E
 - **Technique:** Zero-Shot
 - **Output:** The length of a 5-7 sentence paragraph detailed with what the user requests
