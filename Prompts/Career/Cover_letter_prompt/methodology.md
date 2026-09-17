@@ -4,17 +4,17 @@ I am trying to come up with a prompt that successfully gets the AI to write a co
 ---
 ## Design Approach: Structure and Technique
 **Structure I used:** I used a modified C-A-R-E frame work in which I removed the E  
-**Why this structure fits my task:**
-- The user just needs to provide info for the Ai and let it write the cover letter
-- The AI is already given the specifics and doesn't need to guess on any of the details about the user
-**Technique I used:**
-- Zero-Shot
-**Why this technique fits my task:**
-- I used Zero-Shot because no example besides work experience is necessary and even then, the work experience is considered a placeholder for the details of the user
-**Example of modifying a framework:**
-- I started from C-A-R-E and removes the E (Which meant provide examples), which means the AI still has the background of the user, the task of creating the Cover Letter, and knows what the user expects out of it.
-**Constraints**
-- The model cannot stray from writing about what the user has provided and must write professionally/appealing towards the employer
+- **Why this structure fits my task:**
+The user just needs to provide info for the Ai and let it write the cover letter
+The AI is already given the specifics and doesn't need to guess on any of the details about the user
+- **Technique I used:**
+Zero-Shot
+- **Why this technique fits my task:**
+I used Zero-Shot because no example besides work experience is necessary and even then, the work experience is considered a placeholder for the details of the user
+- **Example of modifying a framework:**
+I started from C-A-R-E and removes the E (Which meant provide examples), which means the AI still has the background of the user, the task of creating the Cover Letter, and knows what the user expects out of it.
+- **Constraints**
+The model cannot stray from writing about what the user has provided and must write professionally/appealing towards the employer
 ---
 ## Part-by-Part Justification
 | Part | What I put here | Why the prompt needs it |
