@@ -1,57 +1,25 @@
 # Study Guide Template
-## Instructions for Use (delete this section when you build your actual prompt)
-Your prompt must include:
-- A short description of what it does
-- Your prompt, organized into clearly labeled parts
-- At least one `[PLACEHOLDER]` in square brackets and CAPS
-- Output requirements so the AI knows what a good answer looks like
-**Two design choices to make and note:**
-- **Structure:** organize your prompt into intentional, labeled parts. Use a
-framework from the lesson (for example R-T-F or C-A-R-E), modify a framework, or
-design your own set of parts. What matters is that the structure is deliberate and
-every part earns its place.
-- **Technique:** the prompting method you use. Zero-shot (no examples), few-shot
-(one or more worked examples), chain-of-thought (ask the AI to reason step by
-step), or zero-shot chain-of-thought (add an instruction like "Think step by step"
-with no examples).
-You justify both choices in `methodology.md`.
 ---
 ## Overview
-**Purpose:** [A sentence or two on what this prompt produces.]
-**Structure:** [Name your framework, your modified framework, or "custom
-structure," then list the parts it breaks into, for example: Context, Task,
-Constraints, Format.]
-**Technique:** [Zero-shot, few-shot, chain-of-thought, or zero-shot chain-of-
-thought.]
+- **Purpose:** This prompt is supposed to get an AI to create a study guide for the user to use for their work
+- **Structure:** I'm using the C-A-R-E framework. The Context is that the user needs a study guide to use, with the Action being where the user tell the Ai to write the prompt for the specified subject or topic. The Rules are the constraints such as no walls of text or the limit on how big or small the guide must be. And finally, the Example is the user providing a sample question for the topic
+- **Technique:** Few-Shot
 ---
 ## The Prompt
-Organize your prompt into labeled parts, in the order that makes sense for your
-task. Each label is one part of your structure. Somewhere in here, state the core
-task or objective clearly, since that is the part the AI most needs to get right.
-If your technique is few-shot, include your example(s) here; if it is chain-of-
-thought, include the instruction to reason step by step.
-- **[PART LABEL 1]:**
-[The content for this part.]
-- **[PART LABEL 2]:**
-[The content for this part.]
-- **[PART LABEL 3]:**
-[The content for this part.]
-[Add or remove parts so the structure matches your design.]
+- **Context and Action:**
+The goal is to create a study guide for [PLACEHOLDER 1], in which the students needs for their upcoming exam.
+- **Rules:**
+The goal of the student is to get above an 85% or B on their test, so information must be sufficient, but not too much where it takes too long to digest the information. There cannot be massive paragraphs and the guide must be around 1.5 to 2 pages long with 2 pages being the absolute maximum. The study guide must be able to be reviewed over in around 30 minutes, no longer, so keep the notes consistent. Make sure to write down key definitions and stay on topic. Do not stray away from what the user is asking for and do not write down irrelevant information that does not pertain to the desired subject. If the user asks for a guide for a massive final/cumulative exam, the guide's page limit is now 10-15 pages long instead. All of these requirements are subject to change from the user. These changes are [PLACEHOLDER 3]
+- **Example:**
+A few example problems for this subject are [PLACEHOLDER 2].
 ---
 ## Context and Inputs
 List the information the user has to supply, written as placeholders:
-- **[PLACEHOLDER_1]:** [What goes here and why it matters]
-- **[PLACEHOLDER_2]:** [What goes here and why it matters]
-- **[PLACEHOLDER_3]:** [What goes here and why it matters]
+- **[PLACEHOLDER_1]:** The subject the user is creating the study guide for
+- **[PLACEHOLDER_2]:** The example problems for context so the AI can understand
+- **[PLACEHOLDER_3]:** Any change to the rules the user may want to input so the AI can meet specifications
 ---
 ## Output Requirements
-**Format:** [How the answer should be structured, for example length, headings,
-bullets, or a table.]
-**Constraints:** [Rules that keep the AI on scope and protect quality.]
-**Tone and Style:** [The voice, reading level, and style you want.]
+**Format:** The Guide should mostly be bullet points and roughly 1-2 pages max
+**Constraints:** The Ai must stay on topic and cannot include info that isn't relevant to what the user is looking for
 ---
-## Additional Instructions (optional)
-Anything else the AI should keep in mind that does not fit one of the parts above.
-Delete this section if you do not need it.
-
-**NOT FINISHED**
