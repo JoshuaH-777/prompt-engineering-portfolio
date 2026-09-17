@@ -36,6 +36,6 @@ Write me a cover letter based on my computer programming skills and make it soun
 **What I learned:** Everything must be specified or else the Ai has room to hallucinate and make up details which may be irrelevant
 ---
 ## Strengths and Limitations
-**Works well when:** Specifying necessary details about the user, required formatting, and constraints
-**Struggles when:** Doesn't seem to break down anywhere, seeing as the final version got a perfect 100. But the first did have issues when it came to details about the user
-**Would improve next:** I would add more detail on how the user's info should be used in the cover letter so it isn't applied in a way that either doesn't make sense, or not relevant to the letter itself.
+- **Works well when:** Specifying necessary details about the user, required formatting, and constraints
+- **Struggles when:** Doesn't seem to break down anywhere, seeing as the final version got a perfect 100. But the first did have issues when it came to details about the user
+- **Would improve next:** I would add more detail on how the user's info should be used in the cover letter so it isn't applied in a way that either doesn't make sense, or not relevant to the letter itself.
