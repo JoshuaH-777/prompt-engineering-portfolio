@@ -17,10 +17,6 @@ This prompt is supposed to come up with a Cover Letter on a Resume once given de
 3. Paste it into your AI model of choice and run it.
 4. Review the output and adapt it to what you need.
 ---
-## Examples
-See the [`examples/`](./examples/) folder for filled-in demonstrations showing the
-prompt and the resulting output.
----
 ## Customization Tips
 - **Want more detail?** Ask the AI to elaborate more on the specific skills you want to highlight
 - **Want it shorter?** Do not include as many details or don't elaborate on them
