@@ -1,43 +1,37 @@
 # Design Methodology: [Prompt Name]
 ## Design Goal
-[A sentence or two on what you were trying to achieve and who the prompt is for.]
+I am trying to come up with a prompt that successfully gets the AI to write a cover letter for the user to implement into their resume when they are looking for jobs
 ---
 ## Design Approach: Structure and Technique
-Explain the two design choices behind your prompt and why they fit the task.
-**Structure I used:** I used a modified C-A-R-E frame work 
+**Structure I used:** I used a modified C-A-R-E frame work in which I removed the E  
 **Why this structure fits my task:**
-- The user just needs to provide info for the Ai and let it write
-- The AI is already given the specifics and doesn't need to guess on any of the details
+- The user just needs to provide info for the Ai and let it write the cover letter
+- The AI is already given the specifics and doesn't need to guess on any of the details about the user
 **Technique I used:** Zero-Shot
 **Why this technique fits my task:**
-I used Zero-Shot because no example besides work experience is necessary and even then, the work experience is considered a placeholder for the details of the user
-**Example of modifying a framework (delete if not relevant):**
-I started from C-A-R-E and removes the E (Which meant provide examples), which means the AI still has the background of the user, the task of creating the Cover Letter, and knows what the user expects out of it.
-**Constraints** The model cannot stray from writing about what the user has provided and must write professionally/appealing towards the employer
-**Example** part to lock in the tone I wanted. My final structure was Role, Task,
-Constraints, Example, Format. Each added part solved a specific problem the plain
-framework left open.
+- I used Zero-Shot because no example besides work experience is necessary and even then, the work experience is considered a placeholder for the details of the user
+**Example of modifying a framework:**
+- I started from C-A-R-E and removes the E (Which meant provide examples), which means the AI still has the background of the user, the task of creating the Cover Letter, and knows what the user expects out of it.
+**Constraints**
+- The model cannot stray from writing about what the user has provided and must write professionally/appealing towards the employer
 ---
 ## Part-by-Part Justification
-Justify each part of your prompt: what it is, what goes in it, and why the prompt
-needs it. If your prompt is technique-driven and short (for example zero-shot
-chain-of-thought), justify the technique and the few parts you do have instead.
 | Part | What I put here | Why the prompt needs it |
 |------|-----------------|-------------------------|
-| [Part 1] | [Your text] | [Reason] |
-| [Part 2] | [Your text] | [Reason] |
-| [Part 3] | [Your text] | [Reason] |
+| The Context | The user tells the AI that they need it write them a cover letter for their resume | This establishes the core task to the Ai  |
+| The Input | The user then tells the AI what they're skills are, what they excel in, and their past work experience | This gives the AI a baseline on what to write about and how it applies to the resume |
+| The Formatting | The user then tells the Ai that the writing style of the cover letter must be formal and strictly professional | This keeps the AI in line with how the user wants their cover letter done as to make it more appealing to the employer |
 ---
 ## Testing and Iteration
 Test your prompt against a naive baseline, a plain version of the same request with
 no deliberate structure or technique, and refine it based on what you see.
 **Baseline I compared against:**
 ```
-[Your plain, naive version of the same request]
+Write me a cover letter based on my computer programming skills and make it sound professional as to appeal to the employer
 ```
 | Version | Result / score | What changed |
 |---------|----------------|--------------|
-| Naive baseline | [result] | [notes] |
+| Naive baseline | 25/100 | Gives the core task but doesn't specify enough the requirements |
 | Version 1 | [result] | [notes] |
 | Final | [result] | [notes] |
 **What testing showed:** [In your own words, how your designed prompt performed
