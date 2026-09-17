@@ -6,12 +6,12 @@
 **Technique:** Zero-Shot
 ---
 ## The Prompt
-**Objective:**
-The task is to write a cover letter for a resume that is detailed according to the user's specific skills, personality traits, and work experience. The topic must strictly stay on what the user has chosen given as what their skills and experience
-**Contraints:**
-As said previously. the topic must be on what the user has specified and cannot stray from it. The writing must also be 5-8 sentences long, no longer nor shorter.
-**Formatting/Professionalism:**
-The style used to write must be provided by the user via an example, but make sure to always appeal to employers when writing. Do not list any cons or negative traits about the user but do not over-praise them. Keep professional and stay on topic.
+- **Objective:**
+The task is to write a cover letter for a resume that is detailed according to the user's specific skills, personality traits, and work experience which are [PLACEHOLDER 1] and [PLACEHOLDER 2].
+- **Contraints:**
+The topic must be on what the user has specified and cannot stray from it. The writing must be written in 3 or 4 paragraphs, with a total of around 300-400 words.
+- **Formatting/Professionalism:**
+The style used to write must always appeal to employers when writing. Do not list any cons or negative traits about the user but do not over-praise them. Keep professional and stay on topic while getting the point across that the user is the best candidate for the employer. If the writing begins to get repetitive, shift towards the conclusion of the cover letter without cutting straight to the end.
 
 ---
 ## Context and Inputs
