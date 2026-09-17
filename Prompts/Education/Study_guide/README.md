@@ -1,5 +1,5 @@
 # Study Guide
-> *[One sentence on what this prompt does.]*
+> *This prompt generatesa study guide ffor student to review for upcoming quizzes and exams*
 ## Overview
 The purpose of the prompt is to create a study guide for students that summarizes the subject accurately
 **Best for:**
@@ -13,8 +13,9 @@ The purpose of the prompt is to create a study guide for students that summarize
 ## Quick Start
 1. Open [`prompt.md`](./prompt.md) and copy the template.
 2. Replace the placeholders:
-- `[PLACEHOLDER_1]`: [what to put here]
-- `[PLACEHOLDER_2]`: [what to put here]
+- `[PLACEHOLDER_1]`: The desired topic for the study guide
+- `[PLACEHOLDER_2]`: Example problems for context
+- `[PLACEHOLDER 3]`: Any desired changes to the rules if necessary (write none if needed)
 3. Paste it into your AI model of choice and run it.
 4. Review the output and adapt it to what you need.
 ---
@@ -24,9 +25,7 @@ The purpose of the prompt is to create a study guide for students that summarize
 - **Different context?** Instead of study guides, this prompt could be adjusted to create notes for slideshows
 ---
 ## Technical Details
-- **Structure:** [The framework or custom structure you used]
+- **Structure:** C-A-R-E
 - **Technique:** Few-Shot
 - **Best models:** Gemini/Claude
-- **Placeholders:** 1 Placeholder???
-
-**Not Finished**
+- **Placeholders:** 3 Placeholders
