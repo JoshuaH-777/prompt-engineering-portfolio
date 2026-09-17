@@ -1,4 +1,4 @@
-# Design Methodology: [Prompt Name]
+# Design Methodology: Cover Letter
 ## Design Goal
 I am trying to come up with a prompt that successfully gets the AI to write a cover letter for the user to implement into their resume when they are looking for jobs
 ---
@@ -23,8 +23,6 @@ I am trying to come up with a prompt that successfully gets the AI to write a co
 | The Formatting | The user then tells the Ai that the writing style of the cover letter must be formal and strictly professional | This keeps the AI in line with how the user wants their cover letter done as to make it more appealing to the employer |
 ---
 ## Testing and Iteration
-Test your prompt against a naive baseline, a plain version of the same request with
-no deliberate structure or technique, and refine it based on what you see.
 **Baseline I compared against:**
 ```
 Write me a cover letter based on my computer programming skills and make it sound professional as to appeal to the employer
@@ -32,13 +30,12 @@ Write me a cover letter based on my computer programming skills and make it soun
 | Version | Result / score | What changed |
 |---------|----------------|--------------|
 | Naive baseline | 25/100 | Gives the core task but doesn't specify enough the requirements |
-| Version 1 | [result] | [notes] |
-| Final | [result] | [notes] |
-**What testing showed:** [In your own words, how your designed prompt performed
-compared to the baseline, and what you changed as a result.]
-**What I learned:** [What this taught you about prompt design.]
+| Version 1 | 65/100 | Specifies constraints and formatting requirements but doesn't give enough details about the user |
+| Final | 100/100 | Fixes all of the problems of the previous two prompts |
+**What testing showed:** My prompt performed much better than the baseline but I still improved it by adding placeholders the user can add their details into when using the prompt
+**What I learned:** Everything must be specified or else the Ai has room to hallucinate and make up details which may be irrelevant
 ---
 ## Strengths and Limitations
-**Works well when:** [The conditions where this prompt performs best.]
-**Struggles when:** [Where it breaks down, and why.]
-**Would improve next:** [What you would refine with more time.]
+**Works well when:** Specifying necessary details about the user, required formatting, and constraints
+**Struggles when:** Doesn't seem to break down anywhere, seeing as the final version got a perfect 100. But the first did have issues when it came o details about the user
+**Would improve next:** I would add more detail on how the user's info should be used in the cover letter so it isn't applied in a way that either doesn't make sense, or not relevant to the letter itself.
