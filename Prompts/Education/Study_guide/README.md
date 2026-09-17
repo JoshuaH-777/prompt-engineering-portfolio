@@ -1,15 +1,14 @@
 # Study Guide
 > *[One sentence on what this prompt does.]*
 ## Overview
-This prompt is 
+The purpose of the prompt is to create a study guide for students that summarizes the subject accurately
 **Best for:**
 - Creating Study Guides
 - Flash Cards
 - Notes
-**Structure:** [The framework, modified framework, or custom structure you used,
-for example R-T-F or a custom Context/Task/Constraints layout.]
-**Technique:** [Zero-shot, few-shot, or chain-of-thought.]
-**Output:** [Typical length, format, and style.]
+- **Structure:** C-A-R-E
+- **Technique:** Few-Shot
+- **Output:** Depends on the user but should be roughly 1-2 pages with two pages being the maximum. There shouldn't bee long stretches of text while still getting the point across
 ---
 ## Quick Start
 1. Open [`prompt.md`](./prompt.md) and copy the template.
@@ -20,12 +19,14 @@ for example R-T-F or a custom Context/Task/Constraints layout.]
 4. Review the output and adapt it to what you need.
 ---
 ## Customization Tips
-- **Want more detail?** [How to expand the output]
-- **Want it shorter?** [How to tighten it]
-- **Different context?** [What to adjust for another audience or industry]
+- **Want more detail?** Tell the AI to expand further on a specific topic or the subject entirely
+- **Want it shorter?** Tell the AI to only write down the main idea or key details of the concept 
+- **Different context?** Instead of study guides, this prompt could be adjusted to create notes for slideshows
 ---
 ## Technical Details
 - **Structure:** [The framework or custom structure you used]
-- **Technique:** [Zero-shot, few-shot, or chain-of-thought]
-- **Best models:** [Which models work best]
-- **Placeholders:** [Number and type]
+- **Technique:** Few-Shot
+- **Best models:** Gemini/Claude
+- **Placeholders:** 1 Placeholder???
+
+**Not Finished**
