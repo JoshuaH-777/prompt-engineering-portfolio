@@ -1,9 +1,9 @@
 # Cover Letter
 ---
 ## Overview
-**Purpose:** This prompt is specifically made for creating a cover letter for resumes, which makes the task of creating the actualy resume easier since the user is not forced to write several large chunks about themselves.
-**Structure:** The framework I've decided to use is C-A-R-E because all the user needs to do is request the cover letter, tell the Ai their work experience and skills, and let the AI write the cover letter
-**Technique:** Zero-Shot
+- **Purpose:** This prompt is specifically made for creating a cover letter for resumes, which makes the task of creating the actualy resume easier since the user is not forced to write several large chunks about themselves.
+- **Structure:** The framework I've decided to use is C-A-R-E because all the user needs to do is request the cover letter, tell the Ai their work experience and skills, and let the AI write the cover letter
+- **Technique:** Zero-Shot
 ---
 ## The Prompt
 - **Objective:**
