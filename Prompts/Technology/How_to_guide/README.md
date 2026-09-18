@@ -13,8 +13,7 @@
 ## Quick Start
 1. Open [`prompt.md`](./prompt.md) and copy the template.
 2. Replace the placeholders:
-- `[PLACEHOLDER_1]`: [what to put here]
-- `[PLACEHOLDER_2]`: [what to put here]
+- `[PLACEHOLDER_1]`: The subject/process you are trying to learn
 3. Paste it into your AI model of choice and run it.
 4. Review the output and adapt it to what you need.
 ---
@@ -27,6 +26,6 @@
 - **Structure:** E-R-A
 - **Technique:** Zero-Shot
 - **Best models:** Gemini, Claude
-- **Placeholders:** N/A
+- **Placeholders:** 1
 
 **NOT FINISHED**
