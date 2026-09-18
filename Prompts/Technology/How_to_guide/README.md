@@ -7,8 +7,8 @@
 - Step-by-step guide for a specific chunk of code
 **Structure:**
 - I am using the E-R-A framework
-**Technique:** [Zero-shot, few-shot, or chain-of-thought.]
-**Output:** [Typical length, format, and style.]
+**Technique:** Zero-Shot
+**Output:** Step by step by step guide with roughly 500-800 words
 ---
 ## Quick Start
 1. Open [`prompt.md`](./prompt.md) and copy the template.
@@ -18,18 +18,15 @@
 3. Paste it into your AI model of choice and run it.
 4. Review the output and adapt it to what you need.
 ---
-## Examples
-See the [`examples/`](./examples/) folder for filled-in demonstrations showing the
-prompt and the resulting output.
----
 ## Customization Tips
-- **Want more detail?** [How to expand the output]
-- **Want it shorter?** [How to tighten it]
-- **Different context?** [What to adjust for another audience or industry]
+- **Want more detail?** Tell the AI to use more words (like 1000)
+- **Want it shorter?** Prompt the AI to use less words (like 400-500
+- **Different context?** Instead of using th step by step guide for technology, it could be used for recipes in the food industry
 ---
 ## Technical Details
-- **Structure:** [The framework or custom structure you used]
-- **Technique:** [Zero-shot, few-shot, or chain-of-thought]
-- **Best models:** [Which models work best]
-- **Placeholders:** [Number and type]
+- **Structure:** E-R-A
+- **Technique:** Zero-Shot
+- **Best models:** Gemini, Claude
+- **Placeholders:** N/A
 
+**NOT FINISHED**
