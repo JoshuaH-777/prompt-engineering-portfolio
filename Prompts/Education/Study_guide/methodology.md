@@ -32,13 +32,12 @@ Give me a study guide based on [PLACEHOLDER 1] for the upcoming test
 | Version | Result / score | What changed |
 |---------|----------------|--------------|
 | Naive baseline | 15/100 | Clarifies a bit of context but not enough |
-| Version 1 | 40 | Disorganized Framework |
-| Final | [result] | [notes] |
-**What testing showed:** [In your own words, how your designed prompt performed
-compared to the baseline, and what you changed as a result.]
-**What I learned:** [What this taught you about prompt design.]
+| Version 1 | 40/100 | Disorganized Framework |
+| Final | 100/100 | In way more detail |
+**What testing showed:** Compared to the baseline, My version ! prompt didn't do nearly as good as I thought
+**What I learned:** This taught me that I should try to organize the framework as little better because it really impacts how the AI percieves the task
 ---
 ## Strengths and Limitations
-**Works well when:** [The conditions where this prompt performs best.]
-**Struggles when:** [Where it breaks down, and why.]
-**Would improve next:** [What you would refine with more time.]
+**Works well when:** Coming up with study guides and notes
+**Struggles when:** An example is provided and AI is forced to guess which is not ideal
+**Would improve next:** Improve the structure of the prompt
