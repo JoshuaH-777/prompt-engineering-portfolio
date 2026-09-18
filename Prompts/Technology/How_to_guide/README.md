@@ -2,13 +2,10 @@
 > *This prompt's purpose is to create a how-to guide for the user to use as reference when troubleshooting or coding*
 ## Overview
 - This prompt produces a guide for users to follow when they need help troubleshooting or coding. This is perfect for novice programmers who may not know what the issue is in their code even after troubleshooting several times.
-**Best for:**
-- Guide for troubleshooting
-- Step-by-step guide for a specific chunk of code
-**Structure:**
-- I am using the E-R-A framework
-**Technique:** Zero-Shot
-**Output:** Step by step by step guide with roughly 500-800 words
+- **Best for:** A guide for troubleshooting and a step-by-step guide for a specific chunk of code
+- **Structure:** I am using the E-R-A framework
+- **Technique:** Zero-Shot
+- **Output:** Step by step by step guide with roughly 500-800 words
 ---
 ## Quick Start
 1. Open [`prompt.md`](./prompt.md) and copy the template.
